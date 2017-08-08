@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.icone{
+	font-size:13px !important;
+	margin:3px;
+	
+}
+.espaco{
+	margin:2px;
+}
+.video{
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+}
+.back_body{
+	background-color:#030303;
+}
+.font_branca{
+	color:#FFF;
+}
