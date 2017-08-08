@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-globalization.globalization", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -389,5 +388,3 @@ getCurrencyPattern:function(currencyCode, successCB, failureCB) {
 };
 
 module.exports = globalization;
-
-});

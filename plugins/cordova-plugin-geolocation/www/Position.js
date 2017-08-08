@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-geolocation.Position", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -32,5 +31,3 @@ var Position = function(coords, timestamp) {
 };
 
 module.exports = Position;
-
-});

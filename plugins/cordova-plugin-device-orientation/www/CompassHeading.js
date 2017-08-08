@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-device-orientation.CompassHeading", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -28,5 +27,3 @@ var CompassHeading = function(magneticHeading, trueHeading, headingAccuracy, tim
 };
 
 module.exports = CompassHeading;
-
-});

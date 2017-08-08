@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-media-capture.capture", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -95,5 +94,3 @@ Capture.prototype.captureVideo = function(successCallback, errorCallback, option
 
 
 module.exports = new Capture();
-
-});

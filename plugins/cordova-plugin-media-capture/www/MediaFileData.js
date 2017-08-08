@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-media-capture.MediaFileData", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -38,5 +37,3 @@ var MediaFileData = function(codecs, bitrate, height, width, duration){
 };
 
 module.exports = MediaFileData;
-
-});

@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-vibration.notification", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -54,7 +53,7 @@ module.exports = {
     vibrate: function(param) {
 
         /* Aligning with w3c spec */
-        
+
         //vibrate
         if ((typeof param == 'number') && param !== 0)
             exec(null, null, "Vibration", "vibrate", [param]);
@@ -109,7 +108,7 @@ module.exports = {
      */
     vibrateWithPattern: function(pattern, repeat) {
         repeat = (typeof repeat !== "undefined") ? repeat : -1;
-        pattern.unshift(0); //add a 0 at beginning for backwards compatibility from w3c spec
+        pattern = pattern.unshift(0); //add a 0 at beginning for backwards compatibility from w3c spec
         exec(null, null, "Vibration", "vibrateWithPattern", [pattern, repeat]);
     },
 
@@ -120,5 +119,3 @@ module.exports = {
         exec(null, null, "Vibration", "cancelVibration", []);
     }
 };
-
-});

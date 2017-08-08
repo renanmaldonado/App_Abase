@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-geolocation.Coordinates", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -68,5 +67,3 @@ var Coordinates = function(lat, lng, alt, acc, head, vel, altacc) {
 };
 
 module.exports = Coordinates;
-
-});

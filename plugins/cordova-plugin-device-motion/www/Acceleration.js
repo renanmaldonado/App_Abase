@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-device-motion.Acceleration", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -28,5 +27,3 @@ var Acceleration = function(x, y, z, timestamp) {
 };
 
 module.exports = Acceleration;
-
-});

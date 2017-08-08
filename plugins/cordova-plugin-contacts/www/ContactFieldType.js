@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-contacts.ContactFieldType", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -54,5 +53,3 @@ cordova.define("cordova-plugin-contacts.ContactFieldType", function(require, exp
     };
 
     module.exports = fieldType;
-
-});

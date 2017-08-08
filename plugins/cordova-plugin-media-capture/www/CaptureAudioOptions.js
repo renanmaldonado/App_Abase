@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-media-capture.CaptureAudioOptions", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -31,5 +30,3 @@ var CaptureAudioOptions = function(){
 };
 
 module.exports = CaptureAudioOptions;
-
-});

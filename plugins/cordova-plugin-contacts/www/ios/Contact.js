@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-contacts.Contact-iOS", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -50,5 +49,3 @@ module.exports = {
         }
     }
 };
-
-});

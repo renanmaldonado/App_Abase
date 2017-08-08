@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-network-information.Connection", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -33,5 +32,3 @@ module.exports = {
         CELL:"cellular",
         NONE: "none"
 };
-
-});

@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-battery-status.battery", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -109,5 +108,3 @@ Battery.prototype._error = function(e) {
 var battery = new Battery(); // jshint ignore:line
 
 module.exports = battery;
-
-});
