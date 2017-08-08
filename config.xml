@@ -114,7 +114,6 @@
     <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
     <gap:plugin name="cordova-plugin-camera" source="npm" version="1.2.0" />
     
-	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="Orientation" value="portrait" />
     <preference name="BackupWebStorage" value="cloud" />
